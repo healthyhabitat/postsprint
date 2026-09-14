@@ -2,16 +2,16 @@
 
 > **Primary checklist:** read **[MORNING_BRIEF.md](./MORNING_BRIEF.md)** first — what shipped, exact env vars, how to make $1, and copy-paste launch posts.
 
-**Live:** https://postsprint.vercel.app  
+**Live:** https://postsprint-alpha.vercel.app  
 **Repo:** https://github.com/healthyhabitat/postsprint  
-**OG:** https://postsprint.vercel.app/og.png
+**OG:** https://postsprint-alpha.vercel.app/og.png
 
 ## Must-do before real revenue
 
 1. **Env vars** (exact names — paste in Vercel, then redeploy)
    - `STRIPE_SECRET_KEY` (live or test)
    - `UNLOCK_COOKIE_SECRET` — long random string
-   - `NEXT_PUBLIC_APP_URL` = `https://postsprint.vercel.app`
+   - `NEXT_PUBLIC_APP_URL` = `https://postsprint-alpha.vercel.app`
    - Run a $1 test purchase; confirm cookie + success page  
    Details: [MORNING_BRIEF.md](./MORNING_BRIEF.md)
 
@@ -28,7 +28,7 @@
    - Confirm HTTPS + cookie `Secure` flag works
 
 4. **Smoke test**
-   - Landing loads at https://postsprint.vercel.app
+   - Landing loads at https://postsprint-alpha.vercel.app
    - Free generation works
    - Days 5–7 / thread / CTAs locked; Markdown disabled until unlock
    - Unlock → success → full sprint + download

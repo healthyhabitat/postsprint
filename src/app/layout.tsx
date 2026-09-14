@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://postsprint.vercel.app";
+const siteUrl = "https://postsprint-alpha.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

@@ -4,7 +4,7 @@
 
 PostSprint is a polished micro-product for makers who just shipped: day-by-day X posts, LinkedIn angle, short Reddit/IndieHackers note, thread starter, hashtag set, and CTA variants — without needing an AI API key.
 
-- **Live:** https://postsprint.vercel.app
+- **Live:** https://postsprint-alpha.vercel.app
 - **Repo:** https://github.com/healthyhabitat/postsprint
 - **Stack:** Next.js App Router, TypeScript, Tailwind CSS, Stripe Checkout
 - **Monetization:** Free preview (days 1–4). Full sprint unlock = **$1**.

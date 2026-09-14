@@ -4,9 +4,9 @@
 
 | | |
 |---|---|
-| **Live app** | https://postsprint.vercel.app |
+| **Live app** | https://postsprint-alpha.vercel.app |
 | **Repo** | https://github.com/healthyhabitat/postsprint |
-| **OG image** | https://postsprint.vercel.app/og.png |
+| **OG image** | https://postsprint-alpha.vercel.app/og.png |
 
 ---
 
@@ -17,7 +17,7 @@
 - Stripe Checkout **$1 unlock** + signed httpOnly cookie (`UNLOCK_COOKIE_SECRET`)
 - Marketing drafts in [MARKETING.md](./MARKETING.md) (inlined below with live URL)
 - Open Graph / Twitter card image + metadata wired to production URL
-- Deployed on Vercel: https://postsprint.vercel.app
+- Deployed on Vercel: https://postsprint-alpha.vercel.app
 
 ---
 
@@ -45,7 +45,7 @@ Project → **Settings → Environment Variables** (Production + Preview):
 |---|---|
 | `STRIPE_SECRET_KEY` | `sk_live_…` (or `sk_test_…`) |
 | `UNLOCK_COOKIE_SECRET` | long random string from step 2 |
-| `NEXT_PUBLIC_APP_URL` | `https://postsprint.vercel.app` |
+| `NEXT_PUBLIC_APP_URL` | `https://postsprint-alpha.vercel.app` |
 
 Optional (not required for first $1):
 
@@ -58,7 +58,7 @@ Optional (not required for first $1):
 
 ### 4. Test purchase
 
-1. Open https://postsprint.vercel.app/create  
+1. Open https://postsprint-alpha.vercel.app/create  
 2. Generate a free sprint.  
 3. Click **Unlock** → complete Stripe Checkout ($1 or test card `4242…`).  
 4. Land on `/success` → cookie set → days 5–7 + thread + CTAs + Markdown visible.  
@@ -75,7 +75,7 @@ Use the copy-paste drafts below (live URL already filled). Order: **X → IndieH
 ```
 STRIPE_SECRET_KEY=sk_live_...          # required for real unlock
 UNLOCK_COOKIE_SECRET=<long-random>     # required for signed cookie
-NEXT_PUBLIC_APP_URL=https://postsprint.vercel.app
+NEXT_PUBLIC_APP_URL=https://postsprint-alpha.vercel.app
 ```
 
 Publishable key: **not used** by current code. Do not block launch on it.
@@ -99,7 +99,7 @@ First preview free. Full sprint = $1.
 
 Because shipping deserves more than one tweet.
 
-https://postsprint.vercel.app
+https://postsprint-alpha.vercel.app
 ```
 
 **Thread hook (optional follow-up):**
@@ -137,7 +137,7 @@ Would love feedback:
 2. Would you pay $1 after seeing days 1–4 free?
 3. Which day’s post feels weakest?
 
-Link: https://postsprint.vercel.app
+Link: https://postsprint-alpha.vercel.app
 ```
 
 ### Reddit — r/SideProject
@@ -155,7 +155,7 @@ Not a marketing course. Posts about the thing you just shipped.
 
 Happy to generate one live if you drop a changelog in the comments.
 
-Link: https://postsprint.vercel.app
+Link: https://postsprint-alpha.vercel.app
 ```
 
 More drafts / reply templates: [MARKETING.md](./MARKETING.md).

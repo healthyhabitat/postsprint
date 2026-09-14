@@ -17,7 +17,7 @@ First preview free. Full sprint = $1.
 
 Because shipping deserves more than one tweet.
 
-https://postsprint.vercel.app
+https://postsprint-alpha.vercel.app
 ```
 
 **Thread hook**
@@ -54,7 +54,7 @@ Would love feedback:
 2. Would you pay $1 after seeing days 1–4 free?
 3. Which day’s post feels weakest?
 
-Link: https://postsprint.vercel.app
+Link: https://postsprint-alpha.vercel.app
 
 ## Reddit — r/SideProject
 
@@ -70,7 +70,7 @@ Not a marketing course. Posts about the thing you just shipped.
 
 Happy to generate one live if you drop a changelog in the comments.
 
-Link: https://postsprint.vercel.app
+Link: https://postsprint-alpha.vercel.app
 
 ## Product Hunt checklist
 
