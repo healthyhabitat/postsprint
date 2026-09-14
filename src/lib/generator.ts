@@ -206,7 +206,7 @@ function toneHooks(tone: Tone, product: string, primary: string, audience: strin
         `Quick walkthrough — what ${product} actually unlocked:\n\n${p}.`,
       ],
       story: [
-        `We built this because ${audience} asked for it.\n\n${product} now does: ${primary.toLowerCase()}.\n\nWhat should we ship next?`,
+        `We built this because ${audience} asked for it.\n\n${product} now includes: ${primary.toLowerCase()}.\n\nWhat should we ship next?`,
         `A week ago this was a rough note.\n\nToday ${product} ships: ${p}.`,
       ],
       how: [
@@ -259,10 +259,12 @@ function toneHooks(tone: Tone, product: string, primary: string, audience: strin
   return {
     announce: [
       `${product} has a new update.\n\n${p}.\n\nMade with ${audience} in mind.`,
-      `Quiet launch: ${product} now helps you ${primary.toLowerCase()}.`,
+      `Quiet launch from ${product}:
+
+${p}.`,
     ],
     problem: [
-      `If ${primary.toLowerCase()} has been a drag, ${product} should feel lighter now.`,
+      `If getting ${primary.toLowerCase()} has been a drag, ${product} should feel lighter now.`,
       `We noticed ${audience} struggling with this — so ${product} ships: ${p}.`,
     ],
     deep: [
@@ -271,10 +273,10 @@ function toneHooks(tone: Tone, product: string, primary: string, audience: strin
     ],
     story: [
       `This started as a note from ${audience}.\n\nIt became a real change in ${product}: ${primary.toLowerCase()}.`,
-      `Small on purpose. ${product} focuses on ${primary.toLowerCase()} so you can move on with your day.`,
+      `Small on purpose. ${product} shipped ${primary.toLowerCase()} so you can move on with your day.`,
     ],
     how: [
-      `To try it: open ${product}, find the new flow, and ${primary.toLowerCase()}.\n\nTwo minutes is enough.`,
+      `To try it: open ${product}, and look for ${primary.toLowerCase()}.\n\nTwo minutes is enough.`,
       `Gentle nudge: ${product}'s update is ready whenever you are.`,
     ],
     behind: [
@@ -282,7 +284,7 @@ function toneHooks(tone: Tone, product: string, primary: string, audience: strin
       `No big spectacle — just a clearer path in ${product} for ${audience}.`,
     ],
     close: [
-      `End of launch week for ${product}.\n\nIf you tried ${primary.toLowerCase()}, we'd love one sentence of feedback.`,
+      `End of launch week for ${product}.\n\nIf you tried the update (${primary.toLowerCase()}), we'd love one sentence of feedback.`,
       `${product} is live with: ${p}.\n\nThanks for reading along.`,
     ],
   };
