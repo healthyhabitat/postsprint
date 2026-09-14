@@ -483,9 +483,9 @@ function buildHashtags(parsed: ParsedLaunch, seed: number): string[] {
 function buildCtas(parsed: ParsedLaunch, tone: Tone, seed: number): string[] {
   const { productName, primary, audience } = parsed;
   const all = [
-    `Try ${productName} → see ${primary.toLowerCase()} yourself.`,
+    `Try ${productName} → check out ${primary.toLowerCase()}.`,
     `Built for ${audience}. Open ${productName} today.`,
-    `Ship with ${productName}'s latest — ${primary.toLowerCase()}.`,
+    `See ${productName}'s latest: ${primary.toLowerCase()}.`,
     `Curious? One click into ${productName}.`,
     tone === "hype"
       ? `Don't wait for the perfect week — try ${productName} now.`
@@ -493,7 +493,7 @@ function buildCtas(parsed: ParsedLaunch, tone: Tone, seed: number): string[] {
         ? `Review the ${productName} change, then send edge cases.`
         : `Whenever you're ready — ${productName} is waiting.`,
     `Reply "link" and I'll send the ${productName} update.`,
-    `Bookmark this: ${productName} now does ${primary.toLowerCase()}.`,
+    `Bookmark this: ${productName} — ${primary.toLowerCase()}.`,
     `Share with a teammate who lives this problem.`,
   ];
   // Deterministic rotate based on seed
